@@ -40,16 +40,16 @@ function App() {
     <Route path="/" element={<Home />} />
 
     <Route path="/atividades" element={<Atividades />} />
-    <Route path="/atividades/1" element={<Atividades01 />} />
-    <Route path="/atividades/2" element={<Atividades02 />} />
-    <Route path="/atividades/3" element={<Atividades03 />} />
-    <Route path="/atividades/4" element={<Atividades04 />} />
-    <Route path="/atividades/5" element={<Atividades05 />} />
-    <Route path="/atividades/6" element={<Atividades06 />} />
-    <Route path="/atividades/7" element={<Atividades07 />} />
-    <Route path="/atividades/8" element={<Atividades08 />} />
-    <Route path="/atividades/9" element={<Atividades09 />} />
-    <Route path="/atividades/10" element={<Atividades10 />} />
+    <Route path="/atividades/1" element={<Atividade01 />} />
+    <Route path="/atividades/2" element={<Atividade02 />} />
+    <Route path="/atividades/3" element={<Atividade03 />} />
+    <Route path="/atividades/4" element={<Atividade04 />} />
+    <Route path="/atividades/5" element={<Atividade05 />} />
+    <Route path="/atividades/6" element={<Atividade06 />} />
+    <Route path="/atividades/7" element={<Atividade07 />} />
+    <Route path="/atividades/8" element={<Atividade08 />} />
+    <Route path="/atividades/9" element={<Atividade09 />} />
+    <Route path="/atividades/10" element={<Atividade10 />} />
 
     <Route path="/exemplos" element={<Exemplos />} />
     <Route path="/exemplos/1" element={<Exemplo01 />} />
