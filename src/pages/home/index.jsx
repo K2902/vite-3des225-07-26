@@ -1,12 +1,14 @@
 import { Link } from "react-router";
 import styles from './index.module.css';
 
-export default function Home () {
+export default function Home() {
     return (
-        <div className={styles.containerHome}>
+        <div className='containerVertical'>
             <h1>Home</h1>
-             <Link to="/exemplos">Exemplos</Link>
-             <Link to="/atividades">Atividades</Link>
+            <div className='containerHorizontal'>
+                <Link to="/exemplos" className={styles.cardHome}>Exemplos</Link>
+                <Link to="/atividades" className={styles.cardHome}>Atividades</Link>
+            </div>
         </div>
     );
 }

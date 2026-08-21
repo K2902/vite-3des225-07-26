@@ -30,6 +30,20 @@ html {
   margin: 0;
 }
 
+.containerVertical {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  align-items: center;
+}
+
+.containerHorizontal {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
 h1 {
   font-size: 2.8rem;
   font-weight: bold;
